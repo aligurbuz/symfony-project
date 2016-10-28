@@ -1,3 +1,15 @@
+api_application_bundle_container:
+    resource: "@ApiApplicationBundleContainerBundle/Resources/config/routing.php"
+    prefix:   /
+
+api_application_bundle_connection:
+    resource: "@ApiApplicationBundleConnectionBundle/Resources/config/routing.php"
+    prefix:   /
+
+
+
+
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
